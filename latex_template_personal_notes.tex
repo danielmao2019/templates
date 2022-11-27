@@ -1,0 +1,45 @@
+\usepackage[margin=1.5in]{geometry}
+\renewcommand{\baselinestretch}{1.25}
+\usepackage[hidelinks]{hyperref}
+\usepackage[numbered]{bookmark}
+\usepackage{minitoc}
+\dominitoc
+\usepackage{subfiles}
+
+\newcommand{\myfrontmatter}[1]
+{
+
+    \pagenumbering{gobble}
+
+    \begin{titlepage}
+
+        \vspace*{5cm}
+
+        \begin{center}
+
+            {\Huge \textbf{#1}}
+
+            \vspace{3cm}
+
+            {\Large Daniel Mao}
+
+        \end{center}
+
+        \vspace{8cm}
+
+        \begin{flushleft}
+            Copyright \(\copyright\) 2020 - \the\year\ Daniel Mao All Rights Reserved.
+        \end{flushleft}
+
+    \end{titlepage}
+
+    \frontmatter
+    \setcounter{tocdepth}{1}
+    \tableofcontents
+    \mainmatter
+
+}
+
+\input{latex_template_fancy_theorem.tex}
+
+\declaretheorem[title={THEOREM}, style=myTheoremStyle, numberwithin=chapter]{theorem}

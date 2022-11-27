@@ -1,0 +1,124 @@
+% packages
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts, amsmath, amssymb}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage[ruled, vlined, linesnumbered]{algorithm2e}
+\usepackage{bbold}
+\usepackage{float}
+
+% colors
+\usepackage{xcolor}
+\definecolor{r}{rgb}{0.5, 0, 0}
+\definecolor{g}{rgb}{0, 0.5, 0}
+\definecolor{b}{rgb}{0, 0, 0.5}
+
+% environments
+\allowdisplaybreaks
+\everymath{\displaystyle}
+
+% fonts
+\newcommand{\bs}{\boldsymbol}
+\newcommand{\newcolor}[2]{\color{#1} #2 \color{black}}
+
+% operators - logical
+\newcommand{\bigand}{\bigwedge}
+\newcommand{\bigor}{\bigvee}
+
+% sets
+\renewcommand{\subset}{\subseteq}
+\renewcommand{\supset}{\supseteq}
+\newcommand{\setuni}{\cup}
+\newcommand{\setint}{\cap}
+\newcommand{\biguni}{\bigcup}
+\newcommand{\bigint}{\bigcap}
+
+% operators - mathematics fundamentals
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\ran}{ran}
+\DeclareMathOperator{\range}{range}
+\DeclareMathOperator{\odiv}{\oplus}
+\DeclareMathOperator{\argmin}{argmin}
+\DeclareMathOperator{\argmax}{argmax}
+\DeclareMathOperator{\id}{Id}
+\DeclareMathOperator{\sign}{sign}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+\DeclareMathOperator{\mex}{mex}  % minimum excludant
+\renewcommand{\emptyset}{\varnothing}
+
+% operators - matrix theory
+\DeclareMathOperator{\spn}{span}
+\DeclareMathOperator{\nll}{null}
+\DeclareMathOperator{\row}{row}
+\DeclareMathOperator{\col}{col}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\adj}{adj}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\Diag}{Diag}
+\DeclareMathOperator{\vect}{vec}  % matrix vectorization
+
+% operators - functional analysis
+\DeclareMathOperator{\balhull}{balhull}
+\DeclareMathOperator{\balcore}{balcore}
+\DeclareMathOperator{\clspan}{clspan}
+\DeclareMathOperator{\codim}{codim}
+\newcommand{\inner}[2]{\left\langle #1,#2 \right\rangle}
+\DeclareMathOperator{\asc}{asc}
+\DeclareMathOperator{\desc}{desc}
+
+% operators - convex analysis
+\DeclareMathOperator{\affspan}{affspan}
+\DeclareMathOperator{\affhull}{affhull}
+\DeclareMathOperator{\aff}{aff}
+\DeclareMathOperator{\convspan}{convspan}
+\DeclareMathOperator{\convhull}{convhull}
+\DeclareMathOperator{\conv}{conv}
+\DeclareMathOperator{\cone}{cone}
+\DeclareMathOperator{\paral}{par}
+\DeclareMathOperator{\Ext}{Ext}  % the set of extreme points of a convex set.
+\DeclareMathOperator{\proj}{proj}
+\DeclareMathOperator{\prox}{prox}
+\DeclareMathOperator{\epi}{epi}
+\DeclareMathOperator{\fix}{Fix}
+\DeclareMathOperator{\stab}{STAB}  % stability set polytope of a graph.
+\DeclareMathOperator{\FRAC}{FRAC}  % fractional stable set polytope of a graph.
+\DeclareMathOperator{\clq}{CLQ}  %clique polytope of a graph.
+
+% operators - probability & statistics
+\DeclareMathOperator{\var}{var}
+\DeclareMathOperator{\cov}{cov}
+
+% operators - topology
+\DeclareMathOperator{\Int}{int}  % interior of a set.
+\DeclareMathOperator{\cl}{cl}  % closure of a set.
+\DeclareMathOperator{\bd}{bd}  % boundary of a set.
+\DeclareMathOperator{\ext}{ext} % exterior of a set.
+\DeclareMathOperator{\ri}{ri}  % relative interior.
+% \DeclareMathOperator{\relint}{relint}
+\DeclareMathOperator{\sri}{sri}  % strong relative interior.
+\DeclareMathOperator{\qri}{qri}  % quasi relative interior.
+\DeclareMathOperator{\dist}{dist}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Lip}{\mathcal{L}ip}
+
+% operators - geometry
+\DeclareMathOperator{\ball}{ball}
+\DeclareMathOperator{\sphere}{sphere}
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\vol}{vol}
+
+% operators - graph theory
+\DeclareMathOperator{\oc}{oc}
+
+% operators - learning theory
+\DeclareMathOperator{\vcdim}{VCdim}
+
+% operators - neural networks
+\DeclareMathOperator{\relu}{ReLU}
+
+% symbols
+\renewcommand{\epsilon}{\varepsilon}
+\renewcommand{\phi}{\varphi}

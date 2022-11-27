@@ -1,0 +1,21 @@
+\usepackage{amsthm, thmtools}
+\usepackage[margin=1in]{geometry}
+\renewcommand{\baselinestretch}{1.25}
+\usepackage{indentfirst}
+
+% header and footer.
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{Page \textbf{\thepage} of \textbf{\pageref{LastPage}}}
+
+\newtheorem{claim}{CLAIM}
+\newtheorem{lemma}{LEMMA}
+\newtheorem{theorem}{THEOREM}
+\newtheorem{definition}{DEFINITION}
+\newtheorem{notation}{NOTATION}
+\newtheorem{proposition}{PROPOSITION}
+\newtheorem{fact}{FACT}
+
+\newcommand{\makesep}{\noindent\textcolor{gray!50}{\hrulefill}\vspace*{0.5cm}}
