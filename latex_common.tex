@@ -10,9 +10,9 @@
 
 % colors
 \usepackage{xcolor}
-\definecolor{r}{rgb}{0.5, 0, 0}
-\definecolor{g}{rgb}{0, 0.5, 0}
-\definecolor{b}{rgb}{0, 0, 0.5}
+\definecolor{r}{rgb}{0.6, 0, 0}
+\definecolor{g}{rgb}{0, 0.6, 0}
+\definecolor{b}{rgb}{0, 0, 0.6}
 
 % environments
 \allowdisplaybreaks
@@ -65,7 +65,7 @@
 \DeclareMathOperator{\balcore}{balcore}
 \DeclareMathOperator{\clspan}{clspan}
 \DeclareMathOperator{\codim}{codim}
-\newcommand{\inner}[2]{\left\langle #1,#2 \right\rangle}
+\newcommand{\inner}[2]{\langle #1,#2 \rangle}
 \DeclareMathOperator{\asc}{asc}
 \DeclareMathOperator{\desc}{desc}
 
@@ -82,14 +82,11 @@
 \DeclareMathOperator{\proj}{proj}
 \DeclareMathOperator{\prox}{prox}
 \DeclareMathOperator{\epi}{epi}
+\DeclareMathOperator{\hyp}{hyp}
 \DeclareMathOperator{\fix}{Fix}
 \DeclareMathOperator{\stab}{STAB}  % stability set polytope of a graph.
 \DeclareMathOperator{\FRAC}{FRAC}  % fractional stable set polytope of a graph.
 \DeclareMathOperator{\clq}{CLQ}  %clique polytope of a graph.
-
-% operators - probability & statistics
-\DeclareMathOperator{\var}{var}
-\DeclareMathOperator{\cov}{cov}
 
 % operators - topology
 \DeclareMathOperator{\Int}{int}  % interior of a set.
@@ -112,6 +109,16 @@
 
 % operators - graph theory
 \DeclareMathOperator{\oc}{oc}
+\def\dotminus{\mathbin{\ooalign{\hss\raise1ex\hbox{.}\hss\cr\mathsurround=0pt$-$}}}
+
+% operators - number theory
+\DeclareMathOperator{\lcm}{lcm}
+\DeclareMathOperator{\ord}{ord}
+\DeclareMathOperator{\dlog}{dlog}
+
+% operators - probability & statistics
+\DeclareMathOperator{\var}{var}
+\DeclareMathOperator{\cov}{cov}
 
 % operators - learning theory
 \DeclareMathOperator{\vcdim}{VCdim}

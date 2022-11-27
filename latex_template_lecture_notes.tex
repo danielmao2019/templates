@@ -2,7 +2,12 @@
 \renewcommand{\baselinestretch}{1.25}
 \usepackage[hidelinks]{hyperref}
 \usepackage[numbered]{bookmark}
+\input{C:/Users/d6mao/repos/latex-templates/latex_template_declare_theorem_style.tex}
+\declaretheorem[title={THEOREM}, style=myTheoremStyle]{theorem}
+\input{C:/Users/d6mao/repos/latex-templates/latex_template_declare_theorem.tex}
+\usepackage{minitoc}\dominitoc
 \usepackage{subfiles}
+\renewcommand\chaptername{LECTURE}
 
 \newcommand{\lectureNotesFrontMatter}[3]
 {
@@ -49,7 +54,3 @@
     \mainmatter
 
 }
-
-\input{latex_template_fancy_theorem.tex}
-
-\declaretheorem[title={THEOREM}, style=myTheoremStyle]{theorem}

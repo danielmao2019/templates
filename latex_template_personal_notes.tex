@@ -1,9 +1,12 @@
 \usepackage[margin=1.5in]{geometry}
 \renewcommand{\baselinestretch}{1.25}
+\usepackage{indentfirst}
 \usepackage[hidelinks]{hyperref}
 \usepackage[numbered]{bookmark}
-\usepackage{minitoc}
-\dominitoc
+\input{C:/Users/d6mao/repos/latex-templates/latex_template_declare_theorem_style.tex}
+\declaretheorem[title={THEOREM}, style=myTheoremStyle, numberwithin=chapter]{theorem}
+\input{C:/Users/d6mao/repos/latex-templates/latex_template_declare_theorem.tex}
+\usepackage{minitoc}\dominitoc
 \usepackage{subfiles}
 
 \newcommand{\myfrontmatter}[1]
@@ -39,7 +42,3 @@
     \mainmatter
 
 }
-
-\input{latex_template_fancy_theorem.tex}
-
-\declaretheorem[title={THEOREM}, style=myTheoremStyle, numberwithin=chapter]{theorem}
