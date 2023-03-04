@@ -1,0 +1,137 @@
+/* **************************************************************************************************** */
+.definition {
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(127, 255, 127);
+}
+
+.definition[title]:not([title=""])::before {
+    content: "DEFINITION (" attr(title) ").";
+    font-weight: bold;
+    display: block;
+}
+
+.definition:not([title]):not([title=""])::before {
+    content: "DEFINITION.";
+    font-weight: bold;
+    display: block;
+}
+
+/* **************************************************************************************************** */
+.proposition {
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(255, 255, 127);
+}
+
+.proposition[title]:not([title=""])::before {
+    content: "PROPOSITION (" attr(title) ").";
+    font-weight: bold;
+    display: block;
+}
+
+.proposition:not([title]):not([title=""])::before {
+    content: "PROPOSITION.";
+    font-weight: bold;
+    display: block;
+}
+
+/* **************************************************************************************************** */
+.theorem {
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(127, 127, 255);
+}
+
+.theorem[title]:not([title=""])::before {
+    content: "THEOREM (" attr(title) ").";
+    font-weight: bold;
+    display: block;
+}
+
+.theorem:not([title]):not([title=""])::before {
+    content: "THEOREM.";
+    font-weight: bold;
+    display: block;
+}
+
+/* **************************************************************************************************** */
+.lemma {
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(127, 127, 255);
+}
+
+.lemma[title]:not([title=""])::before {
+    content: "LEMMA (" attr(title) ").";
+    font-weight: bold;
+    display: block;
+}
+
+.lemma:not([title]):not([title=""])::before {
+    content: "LEMMA.";
+    font-weight: bold;
+    display: block;
+}
+
+/* **************************************************************************************************** */
+.corollary {
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(127, 127, 255);
+}
+
+.corollary[title]:not([title=""])::before {
+    content: "COROLLARY (" attr(title) ").";
+    font-weight: bold;
+    display: block;
+}
+
+.corollary:not([title]):not([title=""])::before {
+    content: "COROLLARY.";
+    font-weight: bold;
+    display: block;
+}
+
+/* **************************************************************************************************** */
+.example {
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(255, 127, 127);
+}
+
+.example[title]:not([title=""])::before {
+    content: "EXAMPLE (" attr(title) ").";
+    font-weight: bold;
+    display: block;
+}
+
+.example:not([title]):not([title=""])::before {
+    content: "EXAMPLE.";
+    font-weight: bold;
+    display: block;
+}
+
+/* **************************************************************************************************** */
+.proof {
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.proof:before {
+    content: "Proof. ";
+    font-style: italic;
+}
+
+/* **************************************************************************************************** */
+.solution {
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.solution:before {
+    content: "Solution. ";
+    font-style: italic;
+}
