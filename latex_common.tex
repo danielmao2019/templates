@@ -5,6 +5,7 @@
 \usepackage{mathrsfs}
 \usepackage{graphicx}
 \usepackage[ruled, vlined, linesnumbered]{algorithm2e}
+\SetArgSty{normal}
 \usepackage{bbold}
 \usepackage{float}
 
@@ -115,6 +116,8 @@
 \DeclareMathOperator{\lcm}{lcm}
 \DeclareMathOperator{\ord}{ord}
 \DeclareMathOperator{\dlog}{dlog}
+\newcommand{\legendre}[2]{\left(\frac{#1}{#2}\right)_{L}}
+\newcommand{\jacobi}[2]{\left(\frac{#1}{#2}\right)_{J}}
 
 % operators - probability & statistics
 \DeclareMathOperator{\var}{var}
