@@ -7,6 +7,7 @@ MathJax.Hub.Config({
       "setint": "\\cap",
       "biguni": "\\bigcup",
       "bigint": "\\bigcap",
+<<<<<<< HEAD
       "ran": "\\operatorname{ran}",
       // number theory
       "ord": "\\operatorname{ord}",
@@ -15,11 +16,18 @@ MathJax.Hub.Config({
       "legendre": ["\\left(\\frac{#1}{#2}\\right)_{L}", 2],
       "jacobi": ["\\left(\\frac{#1}{#2}\\right)_{J}", 2],
       // complexity theory
+=======
+      "ord": "\\operatorname{ord}",
+      "dlog": "\\operatorname{dlog}",
+      "lcm": "\\operatorname{lcm}",
+      // complexity
+>>>>>>> a321926 (updates)
       "P": "\\mathsf{P}",
       "NP": "\\mathsf{NP}",
       "EXP": "\\mathsf{EXP}",
       "time": "\\mathsf{TIME}",
       "space": "\\mathsf{SPACE}",
+<<<<<<< HEAD
       "nspace": "\\mathsf{NSPACE}",
       "pspace": "\\mathsf{PSPACE}",
       "npspace": "\\mathsf{NPSPACE}",
@@ -29,6 +37,10 @@ MathJax.Hub.Config({
       "polyl": "\\mathsf{PolyL}",
       "poly": "\\mathsf{poly}",
       "connected": "\\mathsf{CONNECTED}",
+=======
+      "pspace": "\\mathsf{PSPACE}",
+      "npspace": "\\mathsf{NPSPACE}",
+>>>>>>> a321926 (updates)
     }
   }
 });
