@@ -8,6 +8,7 @@ MathJax.Hub.Config({
       "biguni": "\\bigcup",
       "bigint": "\\bigcap",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ran": "\\operatorname{ran}",
       // number theory
       "ord": "\\operatorname{ord}",
@@ -22,6 +23,14 @@ MathJax.Hub.Config({
       "lcm": "\\operatorname{lcm}",
       // complexity
 >>>>>>> a321926 (updates)
+=======
+      // number theory
+      "ord": "\\operatorname{ord}",
+      "dlog": "\\operatorname{dlog}",
+      "lcm": "\\operatorname{lcm}",
+      "legendre": ["\\left(\\frac{#1}{#2}\\right)_{L}", 2],
+      // complexity theory
+>>>>>>> 88408cb (updates)
       "P": "\\mathsf{P}",
       "NP": "\\mathsf{NP}",
       "EXP": "\\mathsf{EXP}",
