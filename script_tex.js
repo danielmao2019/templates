@@ -12,6 +12,7 @@ MathJax.Hub.Config({
       "dlog": "\\operatorname{dlog}",
       "lcm": "\\operatorname{lcm}",
       "legendre": ["\\left(\\frac{#1}{#2}\\right)_{L}", 2],
+      "jacobi": ["\\left(\\frac{#1}{#2}\\right)_{J}", 2],
       // complexity theory
       "P": "\\mathsf{P}",
       "NP": "\\mathsf{NP}",
