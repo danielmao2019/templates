@@ -2,7 +2,7 @@
 .definition {
     padding: 10px;
     margin: 10px 0px;
-    background-color: rgb(127, 255, 127);
+    background-color: rgb(159, 255, 159);
 }
 
 .definition[title]:not([title=""])::before {
@@ -21,7 +21,7 @@
 .proposition {
     padding: 10px;
     margin: 10px 0px;
-    background-color: rgb(255, 255, 127);
+    background-color: rgb(255, 255, 159);
 }
 
 .proposition[title]:not([title=""])::before {
@@ -40,7 +40,7 @@
 .theorem {
     padding: 10px;
     margin: 10px 0px;
-    background-color: rgb(127, 127, 255);
+    background-color: rgb(159, 159, 255);
 }
 
 .theorem[title]:not([title=""])::before {
@@ -59,7 +59,7 @@
 .lemma {
     padding: 10px;
     margin: 10px 0px;
-    background-color: rgb(127, 127, 255);
+    background-color: rgb(159, 159, 255);
 }
 
 .lemma[title]:not([title=""])::before {
@@ -78,7 +78,7 @@
 .corollary {
     padding: 10px;
     margin: 10px 0px;
-    background-color: rgb(127, 127, 255);
+    background-color: rgb(159, 159, 255);
 }
 
 .corollary[title]:not([title=""])::before {
@@ -97,7 +97,7 @@
 .example {
     padding: 10px;
     margin: 10px 0px;
-    background-color: rgb(255, 127, 127);
+    background-color: rgb(255, 159, 159);
 }
 
 .example[title]:not([title=""])::before {

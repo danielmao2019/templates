@@ -7,10 +7,12 @@ MathJax.Hub.Config({
       "setint": "\\cap",
       "biguni": "\\bigcup",
       "bigint": "\\bigcap",
+      // number theory
       "ord": "\\operatorname{ord}",
       "dlog": "\\operatorname{dlog}",
       "lcm": "\\operatorname{lcm}",
-      // complexity
+      "legendre": ["\\left(\\frac{#1}{#2}\\right)_{L}", 2],
+      // complexity theory
       "P": "\\mathsf{P}",
       "NP": "\\mathsf{NP}",
       "EXP": "\\mathsf{EXP}",
