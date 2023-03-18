@@ -7,6 +7,7 @@ MathJax.Hub.Config({
       "setint": "\\cap",
       "biguni": "\\bigcup",
       "bigint": "\\bigcap",
+      "ran": "\\operatorname{ran}",
       // number theory
       "ord": "\\operatorname{ord}",
       "dlog": "\\operatorname{dlog}",
