@@ -113,6 +113,25 @@
 }
 
 /* **************************************************************************************************** */
+.remark {
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(255, 159, 159);
+}
+
+.remark[title]:not([title=""])::before {
+    content: "REMARK (" attr(title) ").";
+    font-weight: bold;
+    display: block;
+}
+
+.remark:not([title]):not([title=""])::before {
+    content: "REMARK.";
+    font-weight: bold;
+    display: block;
+}
+
+/* **************************************************************************************************** */
 .proof {
     position: relative;
     border: 1px solid black;
