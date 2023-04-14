@@ -113,6 +113,25 @@
 }
 
 /* **************************************************************************************************** */
+.exercise {
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(255, 159, 159);
+}
+
+.exercise[title]:not([title=""])::before {
+    content: "EXERCISE (" attr(title) ").";
+    font-weight: bold;
+    display: block;
+}
+
+.exercise:not([title]):not([title=""])::before {
+    content: "EXERCISE.";
+    font-weight: bold;
+    display: block;
+}
+
+/* **************************************************************************************************** */
 .remark {
     padding: 10px;
     margin: 10px 0px;
