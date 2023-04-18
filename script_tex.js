@@ -15,10 +15,12 @@ MathJax.Hub.Config({
       "legendre": ["\\left(\\frac{#1}{#2}\\right)_{L}", 2],
       "jacobi": ["\\left(\\frac{#1}{#2}\\right)_{J}", 2],
       // complexity theory
+      "encoding": ["\\langle #1 \\rangle", 1],
       "P": "\\mathsf{P}",
       "NP": "\\mathsf{NP}",
       "EXP": "\\mathsf{EXP}",
       "time": "\\mathsf{TIME}",
+      "ntime": "\\mathsf{NTIME}",
       "space": "\\mathsf{SPACE}",
       "nspace": "\\mathsf{NSPACE}",
       "pspace": "\\mathsf{PSPACE}",
@@ -29,6 +31,8 @@ MathJax.Hub.Config({
       "polyl": "\\mathsf{PolyL}",
       "poly": "\\mathsf{poly}",
       "connected": "\\mathsf{CONNECTED}",
+      // complexity theory - boolean functions
+      "addr": "\\operatorname{ADDR}",
     }
   }
 });
