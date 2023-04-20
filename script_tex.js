@@ -8,6 +8,7 @@ MathJax.Hub.Config({
       "biguni": "\\bigcup",
       "bigint": "\\bigcap",
       "ran": "\\operatorname{ran}",
+      "emptyset": "\\varnothing",
       // number theory
       "ord": "\\operatorname{ord}",
       "dlog": "\\operatorname{dlog}",
