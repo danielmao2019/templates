@@ -1,6 +1,7 @@
 MathJax.Hub.Config({
   TeX: {
     Macros: {
+      // basic math
       "floor": ["\\left\\lfloor #1 \\right\\rfloor", 1],
       "ceil": ["\\left\\lceil #1 \\right\\rceil", 1],
       "setuni": "\\cup",
@@ -9,6 +10,11 @@ MathJax.Hub.Config({
       "bigint": "\\bigcap",
       "ran": "\\operatorname{ran}",
       "emptyset": "\\varnothing",
+      // matrix theory
+      "tr": "\\operatorname{tr}",
+      "rank": "\\operatorname{rank}",
+      // functional analysis
+      "inner": ["\\langle #1,#2 \\rangle", 2],
       // number theory
       "ord": "\\operatorname{ord}",
       "dlog": "\\operatorname{dlog}",
