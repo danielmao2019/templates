@@ -13,8 +13,13 @@ MathJax.Hub.Config({
       // matrix theory
       "tr": "\\operatorname{tr}",
       "rank": "\\operatorname{rank}",
+      // convex analysis
+      "proj": "\\operatorname{proj}",
       // functional analysis
       "inner": ["\\langle #1,#2 \\rangle", 2],
+      // topology
+      "ball": "\\operatorname{ball}",
+      "ri": "\\operatorname{ri}",
       // number theory
       "ord": "\\operatorname{ord}",
       "dlog": "\\operatorname{dlog}",
