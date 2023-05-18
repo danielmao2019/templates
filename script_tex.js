@@ -18,6 +18,7 @@ MathJax.Hub.Config({
       // functional analysis
       "inner": ["\\langle #1,#2 \\rangle", 2],
       // topology
+      "Int": "\\operatorname{int}",
       "ball": "\\operatorname{ball}",
       "ri": "\\operatorname{ri}",
       // number theory
