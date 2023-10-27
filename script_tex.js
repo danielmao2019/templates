@@ -13,6 +13,7 @@ MathJax.Hub.Config({
       // matrix theory
       "tr": "\\operatorname{tr}",
       "rank": "\\operatorname{rank}",
+      "Diag": "\\operatorname{Diag}",
       // convex analysis
       "proj": "\\operatorname{proj}",
       // functional analysis
@@ -46,6 +47,8 @@ MathJax.Hub.Config({
       "connected": "\\mathsf{CONNECTED}",
       // complexity theory - boolean functions
       "addr": "\\operatorname{ADDR}",
+      // probability theory
+      "cov": "\\operatorname{cov}",
     }
   }
 });
